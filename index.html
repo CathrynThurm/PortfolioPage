@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Portfolio Page</title>
+    <!--Link to CSS normalizationpage, this will normalize the webpage across all browser types-->
+    <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet" type="text/css"/>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+<!--This the beginning of the webpage content-->
+<body>
+
+<!--Header section is for Logo, SubLogo, and Navigation Menu-->
+  <header>
+    <h1>Cathryn Thurm</h1>
+    <div>
+      <h2>Software Development</h2>
+    </div>
+<!--Navigation links take you to different locations WITHIN page.-->
+    <nav>
+      <a href ="#about" class = "btn">About Me</a>
+      <a href = "#contact" class = "btn">Contact Info</a>
+    </nav>
+  </header>
+
+  <main>
+<!--Profile photo including class to make it round-->
+    <img class = "round center" src = "images/ProfilePic0.jpg" width = 500px alt = "A picture of Cathryn Thurm smiling at the camera.">
+
+    <article>
+<!--This section is my personal bio-->
+      <section>
+        <h3>A Short Introduction</h3>
+        <p>My name is Cathryn Thurm and I am currently a student with Thinkful studying web development in their engineering program.</p>
+        <p>I was drawn to this program because I believe that it facilitates my creativity and ability to problem solve.</p>
+        <p>I am set to graduate this intensive 5-month program in March 2021.</p>
+      </section>
+
+      <hr>
+
+<!--This section goes indepth about me.-->
+<!--Section ID links to navigation menu-->
+      <section id = "about">
+        <h3>About Me</h3>
+        <p>Although I am currently studying web development, I have previously dabbled in Python and C++.</p>
+        <p>I love working on teams and collaborating on projects.</p>
+        <p>I believe that teams push each other to produce more creative and complex projects.</p>
+        <ul class = "center">Some of my interests are: <li>Creating art</li> <li>Mountain biking</li> <li>3D Printing</li> <li>Video games</li> <li>Reading</li> <li>Learning</li></ul>
+      </section>
+
+      <hr>
+<!--This section includes all of my contact information-->
+<!--Section ID links to navigation menu-->
+      <section id = "contact">
+        <h3>Contact Information</h3>
+        <p>If you have any questions about this webpage or would like to schedule an interview please contact me.</p>
+        <p><a href="mailto:cathrynthurm52@mgial.com">cathrynthurm52@gmail.com</a></p>
+        <p><a href= "7609770199">(760)977-0199</a></p>
+        <p><ol>Please follow me on my social media: <li><a href = "https://www.linkedin.com/in/cathryn-thurm-86a5121b4/" target="_blank">LinkedIn</a></li> <li><a href = "https://github.com/CathrynThurm" target="_blank">GitHub</a></li></ol></p>
+      </section>
+    </article>
+
+
+  </main>
+
+  <footer>
+    <h4>Website created by Cathryn Thurm.</h4>
+  </footer>
+<!--Linking to the javaScript file-->
+  <script src="script.js"></script>
+</body>
+
+
+
+
+</html>
