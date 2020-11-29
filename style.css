@@ -54,6 +54,7 @@ footer {
 }
 
 hr {
+  height: 7px;
    border: 3px dotted #3b1306;
    background-color: #925032;
    border-radius: 100px;
